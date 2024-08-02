@@ -1,0 +1,45 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.m-w-20 {
+    max-width: 30vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;  
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.items {
+    align-items: center;
+}
+/* Hover effect - Change background color and scale */
+/* .button:hover {
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.1);
+} */
+
+/* Active effect - Slight push when clicked */
+.button:active {
+    transform: scale(0.9);
+}
+
+.input{
+    width:230px
+}
